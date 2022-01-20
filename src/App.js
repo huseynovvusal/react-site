@@ -1,10 +1,10 @@
-import "./css/main.css";
+import "../src/css/main.css";
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Navbar from "../src/components/Navbar";
+import Home from "../src/components/Home";
+import About from "../src/components/About";
+import Portfolio from "../src/components/Portfolio";
+import Footer from "../src/components/Footer";
 
 export default class App extends Component {
   render() {
